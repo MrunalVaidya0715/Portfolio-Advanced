@@ -94,7 +94,7 @@ function Navbar() {
 
             {/*Menu pop */}
             <div className={menu ? 'fixed left-0 top-0 h-screen w-full bg-black/40' : ''}>
-                <div className={menu ? 'z-[110] fixed top-0 right-[0] w-[250px] h-screen bg-[#20202a] shadow-2xl ease-in-out duration-1000' : 'z-[110] fixed top-0 right-[-100%] w-full h-full ease-in-out duration-1000'}>
+                <div className={menu ? 'z-[110] fixed top-0 right-[0] w-[250px] h-screen bg-[#20202a] shadow-2xl ease-in-out duration-1000 transform-gpu' : 'z-[110] fixed top-0 right-[-100%] w-full h-full ease-in-out duration-1000 transform-gpu'}>
                     <div className='flex w-full h-full flex-col items-center justify-between'>
                         <div onClick={handleMenu} className='px-5 h-20 w-full flex items-center  justify-start bg-[#252532] text-[#8c8c8e] hover:text-white ease-in duration-200 cursor-pointer'>
                             <AiOutlineClose size={20} />
