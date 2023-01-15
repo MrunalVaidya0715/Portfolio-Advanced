@@ -19,7 +19,7 @@ function Navbar() {
     
 
         const controlNavbar = () =>{
-            if (window.scrollY >= lastScrollY && window.scrollY > 50) { // if scroll down hide the navbar
+            if (window.scrollY >= lastScrollY && window.scrollY > 100) { // if scroll down hide the navbar
                 setShow(false); 
               } else { // if scroll up show the navbar
                 setShow(true);  
@@ -52,7 +52,7 @@ function Navbar() {
     return (
 
       
-            <div className={`z-[100] fixed top-0 right-0 w-full h-20 bg-[#252532]/30 backdrop-blur-lg ${show ? '' : 'hidden'}`}>{/*bg-[#252532] */}
+            <div className={`z-[100] fixed top-0 right-0 w-full h-20 bg-[#252532]/30 backdrop-blur-lg ${show ? '' : 'hidden'} ease-in-out duration-700`}>{/*bg-[#252532] */}
             <div className=' flex w-full h-full items-center justify-between p-4 '>
                 {
                     menu ? (
