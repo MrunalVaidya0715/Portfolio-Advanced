@@ -1,6 +1,7 @@
 
 
 import Navbar from '../components/Navbar'
+import ScrollUp from '../components/ScrollUp'
 import '../styles/globals.css'
 
 export default function App({ Component, pageProps }) {
@@ -8,7 +9,7 @@ export default function App({ Component, pageProps }) {
     <>
     
    <Navbar/>
-
+   <ScrollUp/>
     
     <Component {...pageProps} />
     </>

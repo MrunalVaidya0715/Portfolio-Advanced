@@ -7,6 +7,7 @@ import Parent from '../components/Parent'
 import MainPage from '../components/MainPage'
 import Video from '../components/Video'
 import Skills from '../components/Skills'
+import Contact from '../components/Contact'
 
 
 
@@ -23,7 +24,8 @@ export default function Home() {
       </Head>
       <MainPage/>
       <Skills/>
-      <Video />
+      <Contact/>
+      
       
       
  
