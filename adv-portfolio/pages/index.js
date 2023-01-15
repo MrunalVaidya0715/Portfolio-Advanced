@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Parent from '../components/Parent'
 import MainPage from '../components/MainPage'
 import Video from '../components/Video'
+import Skills from '../components/Skills'
 
 
 
@@ -21,6 +22,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainPage/>
+      <Skills/>
+      <Video />
+      
       
  
 
