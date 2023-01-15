@@ -16,7 +16,7 @@ function Banner() {
                     </div>
                 </div>
                 <div className='z-[2] grid grid-cols-2 lg:grid-cols-4  gap-4 py-[20px] w-full '>
-                    <div className='flex items-center border-[1px] border-gray-500 justify-around bg-[#212529] shadow-md hover:shadow-lg hover:shadow-gray-900 hover:translate-y-[-0.2rem] rounded-lg p-[35px] ease-in duration-200'>
+                    <div className='flex items-center border-[1px] border-gray-500 justify-around  bg-[#15181E] shadow-md hover:shadow-lg hover:shadow-gray-900 hover:translate-y-[-0.2rem] rounded-lg p-[35px] ease-in duration-200'>
                         <div>
                             <p className='text-[#FFC107] font-bold text-xl'>2+</p>
                         </div>
@@ -24,7 +24,7 @@ function Banner() {
                             <p className='font-bold text-xl'>Experience</p>
                         </div>
                     </div>
-                    <div className='flex items-center border-[1px] border-gray-500 justify-around bg-[#212529] shadow-md hover:shadow-lg hover:shadow-gray-900 hover:translate-y-[-0.2rem] rounded-lg p-[35px] ease-in duration-200'>
+                    <div className='flex items-center border-[1px] border-gray-500 justify-around bg-[#15181E] shadow-md hover:shadow-lg hover:shadow-gray-900 hover:translate-y-[-0.2rem] rounded-lg p-[35px] ease-in duration-200'>
                         <div>
                             <p className='text-[#FFC107] font-bold text-xl'>2+</p>
                         </div>
@@ -32,7 +32,7 @@ function Banner() {
                             <p className='font-bold text-xl'>Experience</p>
                         </div>
                     </div>
-                    <div className='flex items-center border-[1px] border-gray-500 justify-around bg-[#212529] shadow-md hover:shadow-lg hover:shadow-gray-900 hover:translate-y-[-0.2rem] rounded-lg p-[35px] ease-in duration-200'>
+                    <div className='flex items-center border-[1px] border-gray-500 justify-around bg-[#15181E] shadow-md hover:shadow-lg hover:shadow-gray-900 hover:translate-y-[-0.2rem] rounded-lg p-[35px] ease-in duration-200'>
                         <div>
                             <p className='text-[#FFC107] font-bold text-xl'>2+</p>
                         </div>
@@ -40,7 +40,7 @@ function Banner() {
                             <p className='font-bold text-xl'>Experience</p>
                         </div>
                     </div>
-                    <div className='flex items-center border-[1px] border-gray-500 justify-around bg-[#212529] shadow-md hover:shadow-lg hover:shadow-gray-900 hover:translate-y-[-0.2rem] rounded-lg p-[35px] ease-in duration-200'>
+                    <div className='flex items-center border-[1px] border-gray-500 justify-around bg-[#15181E] shadow-md hover:shadow-lg hover:shadow-gray-900 hover:translate-y-[-0.2rem] rounded-lg p-[35px] ease-in duration-200'>
                         <div>
                             <p className='text-[#FFC107] font-bold text-xl'>2+</p>
                         </div>
