@@ -29,8 +29,8 @@ function About(props) {
 
                     </div>
                 </div>
-                <div className='flex w-full  flex-col bg-[#20202a] h-full '>
-
+                <div className='flex w-full  flex-col bg-[#20202a] h-full scrollbar-hide text-justify '>
+                        
                 </div>
                 <div className='w-full py-1 px-2 flex justify-between'>{/*Footer Links */}
                     <div className='text-gray-500 m-2 hover:text-white ease-in duration-200 cursor-pointer '>
