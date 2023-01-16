@@ -18,7 +18,7 @@ function InstaProfile(props) {
                             </div>
                             <div className='flex justify-between'>{/* Image, following */}
                                 <div className='flex flex-[1]'>
-                                    <Image src="/../public/assets/me-back.jpg" alt="/" width='130' height='50' style={{ borderRadius: "50%" }} />
+                                    <img src="assets/me-back.jpg" alt="/" width='130' height='50' style={{ borderRadius: "50%" }} />
 
                                 </div>
 
