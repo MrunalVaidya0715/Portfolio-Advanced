@@ -9,7 +9,7 @@ function Skills() {
         <video src='assets/videos/backVideo.mp4' alt="/" autoPlay loop muted className='bg-center bg-cover  scale-150 transform-gpu ' />
 
       </div>
-    <div className=' z-[90] max-w-[1240px] w-full md:h-screen m-auto p-4 relative top-0 left-0 overflow-hidden  '>
+    <div className='  z-[90] max-w-[1240px] w-full m-auto p-4 relative top-0 left-0 overflow-hidden  '>
       
       <div className=' relative flex justify-center w-full h-full flex-col'>
         <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
