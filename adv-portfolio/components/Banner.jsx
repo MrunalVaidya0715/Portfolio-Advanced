@@ -7,7 +7,7 @@ function Banner() {
     return (
         <div className='w-full h-screen mt-[5rem]'>
             <div className='flex flex-col items-center w-full  max-w-[1240px]  mx-auto p-4 justify-center '>
-                <div className=' bg-blend-difference   relative  rounded-lg  w-full max-h-[40vh] md:max-h-[50vh] md:h-[50vh] min-w-[50vh] bg-[#20202a] opacity-100 bg-right-top bg-cover bg-no-repeat ease-in duration-500' style={{ backgroundImage: "url('/assets/mum1.jpg')" }}>
+                <div className=' bg-blend-difference   relative  rounded-lg  w-full max-h-[40vh] md:max-h-[50vh] md:h-[50vh] min-w-[40vh] bg-[#20202a] opacity-100 bg-right-top bg-cover bg-no-repeat ease-in duration-500' style={{ backgroundImage: "url('/assets/mum1.jpg')" }}>
                     <div className='absolute top-0 left-0 w-full h-full bg-gray-900/50'></div>
                     <div className=' z-[1] absolute bottom-3 text-white p-2 flex items-center justify-center w-full h-full'>
                         <h1 className='text-5xl lg:text-8xl'>Discover my Amazing Work-Space</h1>
