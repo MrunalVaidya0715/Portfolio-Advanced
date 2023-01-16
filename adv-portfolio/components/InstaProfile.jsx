@@ -25,7 +25,7 @@ function InstaProfile(props) {
                                 <div className='flex flex-[2] justify-evenly items-center'>{/* Numbers */}
                                     <div className='flex justify-center text-center flex-col text-white'>
                                         <h2 className='text-[30px]'>6</h2>
-                                        <p>Projects</p>
+                                        <p>Posts</p>
                                     </div>
                                     <div className='flex justify-center text-center flex-col text-white'>
                                         <h2 className='text-[30px]'>505</h2>
