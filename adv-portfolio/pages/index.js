@@ -26,6 +26,7 @@ export default function Home() {
       <MainPage/>
       
       <Skills/>
+      <Projects/>
       <Contact/>
       
       

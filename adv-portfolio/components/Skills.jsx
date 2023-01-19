@@ -4,9 +4,9 @@ import Video from './Video'
 
 function Skills() {
   return (
-    <div id='skills' className=' relative'>
+    <div id='skills' className=' relative w-full h-screen flex items-center justify-center border-2 border-white'>
       <div className='m-0 p-0  absolute left-0 top-0 flex w-full h-full items-center justify-center overflow-hidden'>
-        <video src='assets/videos/backVideo.mp4' alt="/" autoPlay loop muted className='bg-center bg-cover  scale-150 transform-gpu ' />
+        <video src='assets/videos/backVideo.mp4' alt="/" autoPlay loop muted className='bg-center bg-cover  transform-gpu ' />
 
       </div>
     <div className='  z-[90] max-w-[1240px] w-full m-auto p-4 relative top-0 left-0 overflow-hidden  '>
