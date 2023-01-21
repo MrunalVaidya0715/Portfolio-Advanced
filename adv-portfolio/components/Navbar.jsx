@@ -111,7 +111,7 @@ function Navbar() {
                                 <Link onClick={handleMenu}  href='/#skills'>
                                     <li className='text-[#8c8c8e] mb-4 text-lg font-bold hover:text-[#ffc107] hover:translate-x-5 ease-in duration-200'>Skills</li>
                                 </Link>
-                                <Link onClick={handleMenu}  href='/'>
+                                <Link onClick={handleMenu}  href='/#projects'>
                                     <li className='text-[#8c8c8e] mb-4 text-lg font-bold hover:text-[#ffc107] hover:translate-x-5 ease-in duration-200'>Projects</li>
                                 </Link>
                                 <Link onClick={handleMenu}  href='/'>
