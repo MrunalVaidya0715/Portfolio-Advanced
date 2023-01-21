@@ -28,7 +28,7 @@ function InstaDM(props) {
                         <BiArrowBack size={30} />
                     </div>
                     <div onClick={() => props.setDm(!props.dm)} className='cursor-pointer'>
-                        <Image src="/../public/assets/me-back.jpg" alt="/" width='45' height='50' style={{ borderRadius: "50%" }} />
+                        <img src="/../public/assets/me-back.jpg" alt="/" width='45' height='50' style={{ borderRadius: "50%" }} />
 
                     </div>
                     <div className='flex flex-col py-[2px] px-[20px] '>

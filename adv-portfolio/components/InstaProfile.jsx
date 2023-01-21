@@ -17,22 +17,22 @@ function InstaProfile(props) {
                                 </div>
                             </div>
                             <div className='flex justify-between'>{/* Image, following */}
-                                <div className='flex flex-[1]'>
+                                <div className='flex flex-[1] mr-2'>
                                     <img src="assets/me-back.jpg" alt="/" width='130' height='50' style={{ borderRadius: "50%" }} />
 
                                 </div>
 
                                 <div className='flex flex-[2] justify-evenly items-center'>{/* Numbers */}
                                     <div className='flex justify-center text-center flex-col text-white'>
-                                        <h2 className='text-[30px]'>6</h2>
+                                        <h2 className=' text-md md:text-md'>6</h2>
                                         <p>Posts</p>
                                     </div>
                                     <div className='flex justify-center text-center flex-col text-white'>
-                                        <h2 className='text-[30px]'>505</h2>
+                                        <h2 className=' text-md md:text-md'>505</h2>
                                         <p>Followers</p>
                                     </div>
                                     <div className='flex justify-center text-center flex-col text-white'>
-                                        <h2 className='text-[30px]'>485</h2>
+                                        <h2 className=' text-md sm:text-md'>485</h2>
                                         <p>Following</p>
                                     </div>
                                 </div>

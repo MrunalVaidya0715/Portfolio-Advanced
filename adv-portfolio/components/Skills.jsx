@@ -4,17 +4,19 @@ import Video from './Video'
 
 function Skills() {
   return (
-    <div id='skills' className=' relative w-full h-screen flex items-center justify-center'>
-      <div className= 'm-0 p-0  absolute left-0 top-0 flex w-full h-full items-center justify-center overflow-hidden'>
+    <div id='skills' className=' relative w-full h-screen flex items-center justify-center p-4'>
+      <div className='m-0 p-0  absolute left-0 top-0 flex w-full h-full items-center justify-center overflow-hidden'>
         <video src='assets/videos/backVideo.mp4' alt="/" autoPlay loop muted className='bg-center bg-cover  transform-gpu ' />
 
       </div>
-      <div className=' z-[90] max-w-[1240px] w-full m-auto p-4 relative top-0 left-0 overflow-hidden  '>
-
-        <div className=' flex justify-center w-full h-full flex-col'>
+      <div className=' z-[90] max-w-[1240px] w-full m-auto py-4 relative top-0 left-0 overflow-hidden  '>
+        <div className=' absolute left-0 top-0'>
           <p className=' uppercase text-xl tracking-widest text-[#5651e5]'>
             &lt;Skills&gt;
           </p>
+        </div>
+        <div className=' flex justify-center w-full h-full flex-col'>
+
 
           <div className='grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-8 py-[20px] '>
             <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[1rem] ease-in duration-200'>
@@ -74,9 +76,11 @@ function Skills() {
 
 
           </div>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
-            &lt;/Skills&gt;
-          </p>
+          <div className=' absolute left-0 bottom-0'>
+            <p className=' uppercase text-xl tracking-widest text-[#5651e5]'>
+              &lt;Skills&gt;
+            </p>
+          </div>
         </div>
       </div>
     </div>
