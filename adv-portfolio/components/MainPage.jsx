@@ -9,7 +9,7 @@ function MainPage() {
       {/* <div className='z-[0] fixed top-0 left-0 w-full h-full bg-[#0D0E12]'>
 
       </div> */}
-      <Banner />
+      
 
       
 

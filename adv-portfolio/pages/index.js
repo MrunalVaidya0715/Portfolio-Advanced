@@ -9,6 +9,7 @@ import Video from '../components/Video'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Projects from '../components/Projects'
+import Banner from '../components/Banner'
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainPage/>
+      <Banner/>
       
       <Skills/>
       <Projects/>

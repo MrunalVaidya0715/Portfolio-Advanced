@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 function Banner() {
     return (
-        <div className='w-full h-fit mt-[5rem]'>
+        <div className='w-full h-auto mt-[5rem] flex items-center justify-center'>
             <div className='flex flex-col items-center w-full  max-w-[1240px]  mx-auto p-4 justify-center '>
                 <div className=' bg-blend-difference   relative  rounded-lg  w-full max-h-[420px] h-[40vh] md:h-[50vh] min-w-[40vh] bg-[#20202a] opacity-100 bg-right-top bg-cover bg-no-repeat ease-in duration-500' style={{ backgroundImage: "url('/assets/mum1.jpg')" }}>
                     <div className='absolute top-0 left-0 w-full h-full bg-gray-900/50'></div>

@@ -3,12 +3,12 @@ import Video from './Video'
 
 function Projects() {
     return (
-        <div id='projects' className=' relative flex w-full h-fit md:h-screen  items-center justify-center p-4 my-16'>
+        <div id='projects' className=' relative flex w-full h-auto md:h-screen  items-center justify-center p-4 my-16'>
             <div className='m-0 p-0  absolute left-0 top-0 flex w-full h-full items-center justify-center overflow-hidden'>
                 <img src='assets/svg/product-lines-bg.svg' alt="/" className='bg-center bg-cover ' /> 
                 
             </div>
-            <div className='z-[1] relative top-0 left-0 flex w-screen h-fit max-w-[1240px] items-center justify-center '>
+            <div className='z-[1] relative top-0 left-0 flex w-full h-fit max-w-[1240px] items-center justify-center '>
                 <div className=' absolute left-0 top-0'>
                     <p className=' uppercase text-xl tracking-widest text-[#5651e5]'>
                         &lt;Projects&gt;
