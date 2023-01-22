@@ -19,7 +19,7 @@ function Skills() {
           <div className=' flex justify-center w-full h-full flex-col'>
 
 
-            <div className='grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-8 py-[20px] '>
+            <div className='grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-4 py-[20px] '>
               <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
                   <img src='assets/skills/html.png' className=' w-[4rem]' alt="html" />
