@@ -20,55 +20,72 @@ function Skills() {
 
 
             <div className='grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-8 py-[20px] '>
-              <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[1rem] ease-in duration-200'>
-                <img src='assets/skills/html.png' width="65" height="50" alt="Not found" />
+              <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <p className='font-bold text-xl ml-4  text-white'>HTML</p>
+                  <img src='assets/skills/html.png' className=' w-[4rem]' alt="html" />
+                </div>
+                <div>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>html</p>
                 </div>
               </div>
-              <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md  hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[2rem] ease-in duration-200'>
-                <img src='assets/skills/css.png' width="65" height="50" alt="Not found" />
+              <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <p className='font-bold text-xl ml-4  text-white '>CSS</p>
+                  <img src='assets/skills/css.png' className=' w-[4rem]' alt="css" />
+                </div>
+                <div>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>css</p>
                 </div>
               </div>
-              <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md  hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[2rem] ease-in duration-200'>
-                <img src='assets/skills/javascript.png' width="65" height="50" alt="Not found" />
+              <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <p className='font-bold text-xl ml-4  text-white'>JAVASCRIPT</p>
+                  <img src='assets/skills/javascript.png' className=' w-[4rem]' alt="Not found" />
+                </div>
+                <div>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>javascript</p>
                 </div>
               </div>
-              <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md  hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[2rem] ease-in duration-200'>
-                <img src='assets/skills/react.png' width="65" height="50" alt="Not found" />
+              <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <p className='font-bold text-xl ml-4  text-white'>REACT JS</p>
+                  <img src='assets/skills/react.png' className=' w-[4rem]' alt="Not found" />
+                </div>
+                <div>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>react js</p>
                 </div>
               </div>
-              <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md  hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[2rem] ease-in duration-200'>
-                <img src='assets/skills/nextjs.png' width="65" height="50" alt="Not found" />
+              <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <p className='font-bold text-xl ml-4  text-white'>NEXT JS</p>
+                  <img src='assets/skills/nextjs.png' className=' w-[4rem]' alt="Not found" />
+                </div>
+                <div>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>next js</p>
                 </div>
               </div>
-              <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md  hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[2rem] ease-in duration-200'>
-                <img src='assets/skills/tailwind.png' width="65" height="50" alt="Not found" />
+              <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <p className='font-bold text-xl ml-4  text-white'>TAILWIND CSS</p>
+                  <img src='assets/skills/tailwind.png' className=' w-[4rem]' alt="Not found" />
+                </div>
+                <div>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>tailwind css</p>
                 </div>
               </div>
-              <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md  hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[2rem] ease-in duration-200'>
-                <img src='assets/skills/node.png' width="65" height="50" alt="Not found" />
+              <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <p className='font-bold text-xl ml-4  text-white'>NODE JS</p>
+                  <img src='assets/skills/node.png' className=' w-[4rem]' alt="Not found" />
+                </div>
+                <div>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>node js</p>
                 </div>
               </div>
-
-              <div className='flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md  hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg p-[2rem] ease-in duration-200'>
-                <img src='assets/skills/mongo.png' width="65" height="50" alt="Not found" />
+              <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <p className='font-bold text-xl ml-4  text-white'>MONGO DB</p>
+                  <img src='assets/skills/mongo.png' className=' w-[4rem]' alt="Not found" />
+                </div>
+                <div>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>mongo</p>
                 </div>
               </div>
+              
+              
 
 
             </div>
