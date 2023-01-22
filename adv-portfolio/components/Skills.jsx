@@ -4,7 +4,7 @@ import Video from './Video'
 
 function Skills() {
   return (
-    <div id='skills' className=' relative flex w-full h-screen  items-center justify-center p-4 my-16'>
+    <div id='skills' className=' relative flex w-full h-fit md:h-screen  items-center justify-center p-4 my-16'>
       <div className='m-0 p-0  absolute left-0 top-0 flex w-full h-full items-center justify-center overflow-hidden'>
       <video src='assets/videos/backVideo.mp4' alt="/" autoPlay loop muted className='bg-center bg-cover  transform-gpu ' />
 

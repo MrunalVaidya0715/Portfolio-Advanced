@@ -3,7 +3,7 @@ import Video from './Video'
 
 function Projects() {
     return (
-        <div id='projects' className=' relative flex w-full h-fit  items-center justify-center p-4 my-16'>
+        <div id='projects' className=' relative flex w-full h-fit md:h-screen  items-center justify-center p-4 my-16'>
             <div className='m-0 p-0  absolute left-0 top-0 flex w-full h-full items-center justify-center overflow-hidden'>
                 <img src='assets/svg/product-lines-bg.svg' alt="/" className='bg-center bg-cover ' /> 
                 
