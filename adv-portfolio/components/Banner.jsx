@@ -9,9 +9,14 @@ function Banner() {
             <div className='flex flex-col items-center w-full  max-w-[1240px]  mx-auto p-4 justify-center '>
                 <div className=' bg-blend-difference   relative  rounded-lg  w-full max-h-[420px] h-[40vh] md:h-[50vh] min-w-[40vh] bg-[#20202a] opacity-100 bg-right-top bg-cover bg-no-repeat ease-in duration-500' style={{ backgroundImage: "url('/assets/mum1.jpg')" }}>
                     <div className='absolute top-0 left-0 w-full h-full bg-gray-900/50'></div>
-                    <div className=' z-[1] absolute bottom-3 text-white p-2 flex items-center justify-center w-full h-full'>
-                        <h1 className='text-5xl lg:text-8xl'>Discover my Amazing Work-Space</h1>
+                    <div className=' border-2 border-white z-[1] absolute  text-white p-2 flex flex-col items-center justify-center w-[75%] h-full'>
+                        <h1 className=' border-2 border-white text-5xl lg:text-8xl'>Discover my Amazing Work-Space</h1>
 
+                        <div className='flex text-md lg:text-4xl items-center justify-center w-full h-full'>
+                            <p className='text-[#FFC107] tracking-widest '>&lt;code&gt;</p>
+                            <span className='mx-2'>I make API's</span>
+                            <p className='text-[#FFC107] tracking-widest'>&lt;/code&gt;</p>
+                        </div>
                     </div>
                     <div className='z-[25] absolute bottom-0 right-0 hidden md:flex'>
                         <img src='assets/me2Png.png' alt="/" width='400' height='50' style={{ borderRadius: "2%" }} />
@@ -51,15 +56,15 @@ function Banner() {
                             <p className='font-bold text-xl'>Experience</p>
                         </div>
                     </div>
-            
-                </div> 
+
+                </div>
                 <div className='flex items-center justify-between w-full  md:w-[50%] m-auto py-4 ease-in duration-500'>
                     <a
                         href='/'
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <div className='mx-[8px] rounded-full shadow-lg shadow-gray-900 p-4 md:p-9 cursor-pointer hover:text-white  border-[1px] border-gray-500  bg-[#15181E] overflow-hidden ease-in duration-300'>
+                        <div className='mx-[8px] rounded-full shadow-lg shadow-gray-900 p-4 md:p-9 cursor-pointer hover:text-white  border-[1px] border-gray-500  bg-[#15181E] hover:bg-[#252a34] overflow-hidden ease-in duration-300'>
                             <FaLinkedinIn size={25} className=' hover:scale-110 ease-in duration-300' />
                         </div>
                     </a>
@@ -68,18 +73,18 @@ function Banner() {
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <div className='mx-[8px] rounded-full shadow-lg shadow-gray-900 p-4 md:p-9 cursor-pointer hover:text-white  border-[1px] border-gray-500  bg-[#15181E] ease-in duration-300'>
-                            <FaGithub size={25} className=' hover:scale-110 ease-in duration-300'  />
+                        <div className='mx-[8px] rounded-full shadow-lg shadow-gray-900 p-4 md:p-9 cursor-pointer hover:text-white  border-[1px] border-gray-500  bg-[#15181E] hover:bg-[#252a34] ease-in duration-300'>
+                            <FaGithub size={25} className=' hover:scale-110 ease-in duration-300' />
                         </div>
                     </a>
                     <Link href='/#contact'>
-                        <div className='mx-[8px] rounded-full shadow-lg shadow-gray-900 p-4 md:p-9 cursor-pointer hover:text-white  border-[1px] border-gray-500  bg-[#15181E] ease-in duration-300'>
-                            <AiOutlineMail size={25} className=' hover:scale-110 ease-in duration-300'  />
+                        <div className='mx-[8px] rounded-full shadow-lg shadow-gray-900 p-4 md:p-9 cursor-pointer hover:text-white  border-[1px] border-gray-500  bg-[#15181E] hover:bg-[#252a34] ease-in duration-300'>
+                            <AiOutlineMail size={25} className=' hover:scale-110 ease-in duration-300' />
                         </div>
                     </Link>
                     <Link href='/'>
-                        <div className='mx-[8px] rounded-full shadow-lg shadow-gray-900 p-4 md:p-9 cursor-pointer hover:text-white  border-[1px] border-gray-500  bg-[#15181E] ease-in duration-300'>
-                            <BsFillPersonLinesFill size={25} className=' hover:scale-110 ease-in duration-300'  />
+                        <div className='mx-[8px] rounded-full shadow-lg shadow-gray-900 p-4 md:p-9 cursor-pointer hover:text-white  border-[1px] border-gray-500  bg-[#15181E] hover:bg-[#252a34] ease-in duration-300'>
+                            <BsFillPersonLinesFill size={25} className=' hover:scale-110 ease-in duration-300' />
                         </div>
                     </Link>
                 </div>

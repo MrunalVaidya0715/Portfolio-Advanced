@@ -54,10 +54,10 @@ function Skills() {
               </div>
               <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
                 <div>
-                  <img src='assets/skills/nextjs.png' className=' w-[4rem]' alt="Not found" />
+                  <img src='assets/skills/nextjs.png' className=' shadow-sm shadow-gray-500 rounded-full w-[4rem]' alt="Not found" />
                 </div>
                 <div>
-                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white'>next js</p>
+                  <p className=' uppercase font-bold text-md md:text-lg ml-4  text-white '>next js</p>
                 </div>
               </div>
               <div className=' p-2 w-full h-full py-8 flex items-center justify-around bg-[#15181E]/80 backdrop-blur-md hover:bg-[#252a34] border-[1px] border-gray-500 shadow-md hover:shadow-2xl rounded-lg  ease-in duration-200'>
